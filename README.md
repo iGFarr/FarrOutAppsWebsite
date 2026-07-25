@@ -4,13 +4,13 @@ Static website, support center, and privacy policies for Farr Out Apps.
 
 ## Local preview
 
-Run any static HTTP server from the repository root, for example:
+Build the deployable directory:
 
 ```sh
-python3 -m http.server 8080
+npm run build
 ```
 
-Then open `http://localhost:8080`.
+Then serve the generated `dist` directory with any static HTTP server.
 
 ## Deployment
 

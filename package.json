@@ -1,0 +1,8 @@
+{
+  "name": "farr-out-apps-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p dist/privacy dist/support && cp index.html styles.css .nojekyll dist/ && cp privacy/index.html dist/privacy/ && cp support/index.html dist/support/"
+  }
+}

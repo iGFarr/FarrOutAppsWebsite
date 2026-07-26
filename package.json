@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "mkdir -p dist/privacy dist/support dist/partpocket/privacy dist/partpocket/support dist/server dist/.openai && cp index.html styles.css .nojekyll dist/ && cp privacy/index.html dist/privacy/ && cp support/index.html dist/support/ && cp partpocket/privacy/index.html dist/partpocket/privacy/ && cp partpocket/support/index.html dist/partpocket/support/ && cp server/index.js dist/server/ && cp .openai/hosting.json dist/.openai/"
+    "build": "mkdir -p dist/privacy dist/support dist/universal-remote/privacy dist/universal-remote/support dist/partpocket/privacy dist/partpocket/support dist/server dist/.openai && cp index.html styles.css .nojekyll dist/ && cp privacy/index.html dist/privacy/ && cp support/index.html dist/support/ && cp universal-remote/privacy/index.html dist/universal-remote/privacy/ && cp universal-remote/support/index.html dist/universal-remote/support/ && cp partpocket/privacy/index.html dist/partpocket/privacy/ && cp partpocket/support/index.html dist/partpocket/support/ && cp server/index.js dist/server/ && cp .openai/hosting.json dist/.openai/"
   }
 }

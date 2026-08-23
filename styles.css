@@ -235,6 +235,32 @@ h2 {
     #07516a;
 }
 
+.quick-clean-icon {
+  overflow: hidden;
+  background: #11131b;
+}
+
+.quick-clean-icon::before { display: none; }
+
+.quick-clean-icon img {
+  width: min(62%, 260px);
+  height: auto;
+  border-radius: 22.5%;
+  box-shadow: 0 24px 55px rgba(0, 0, 0, .35);
+}
+
+.quick-clean-symbol {
+  overflow: hidden;
+  padding: 0;
+  background: #11131b;
+}
+
+.quick-clean-symbol img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .partpocket-icon::before {
   position: absolute;
   z-index: 2;
